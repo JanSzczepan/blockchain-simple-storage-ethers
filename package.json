@@ -10,9 +10,16 @@
    "author": "",
    "license": "ISC",
    "dependencies": {
+      "@types/fs-extra": "^11.0.1",
+      "dotenv": "^16.0.3",
+      "ethers": "^6.3.0",
+      "fs-extra": "^11.1.1",
       "prettier": "^2.8.8",
       "solc": "^0.8.19",
       "ts-node": "^10.9.1",
       "typescript": "^5.0.4"
+   },
+   "devDependencies": {
+      "typechain": "^8.1.1"
    }
 }
